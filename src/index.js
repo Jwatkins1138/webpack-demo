@@ -5,7 +5,7 @@ import Icon from './icon.png';
 function component() {
   const element = document.createElement('div');
 
-  element.innerHTML = _.join(['hello', 'webpack'], ' ');
+  element.innerHTML = _.join(['Hello', 'Webpack'], ' ');
   element.classList.add('hello');
 
   const myIcon = new Image();
